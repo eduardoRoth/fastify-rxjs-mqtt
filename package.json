@@ -1,0 +1,35 @@
+{
+  "name": "@eduardorothdev/fastify-rxjs-mqtt",
+  "version": "1.0.0",
+  "description": "Fastify wrapper for rxjs-mqtt",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoRoth/fastify-rxjs-mqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "fastify",
+    "async",
+    "async-mqtt"
+  ],
+  "author": "Eduardo Roth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eduardoRoth/fastify-rxjs-mqtt/issues"
+  },
+  "homepage": "https://github.com/eduardoRoth/fastify-rxjs-mqtt#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@eduardorothdev/rxjs-mqtt": "^1.0.6",
+    "fastify": "^4.28.1",
+    "fastify-plugin": "^4.5.1"
+  }
+}
